@@ -1,4 +1,4 @@
-FROM golang:1.20
+FROM golang:1.21
 COPY . /dd-trace-go
 WORKDIR /dd-trace-go/internal/apps/unit-of-work
 RUN go get -t
